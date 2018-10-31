@@ -1,0 +1,8 @@
+**/target
+**/core.*
+**/*.o
+.project
+**/nbproject/
+.idea
+**/*.iml
+activemq-data
