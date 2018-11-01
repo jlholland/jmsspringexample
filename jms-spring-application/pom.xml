@@ -69,7 +69,6 @@
              or you can run in as a java -jar for example test replace DASH with '-'
                   java -jar target/jms-spring-application-1.0-SNAPSHOT.jar DASHDASHspring.profiles.active=test
            -->
-
         <profile>
             <id>test</id>
             <properties>
@@ -122,24 +121,6 @@
                     </execution>
                 </executions>
             </plugin>
-
-            <plugin>
-                <artifactId>maven-assembly-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>single</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
-                    </descriptorRefs>
-                </configuration>
-            </plugin>
-        </plugins>
+       </plugins>
     </build>
-
 </project>
