@@ -31,7 +31,7 @@ queue:
   command: Command_Queue_intergration
   status: Status_Queue_intergration
 topic:
-  status: Status_Topic_test
+  status: Status_Topic_integration
 ---
 spring:
   profiles: release
