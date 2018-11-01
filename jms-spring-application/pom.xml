@@ -74,10 +74,7 @@
             <properties>
                 <activatedProperties>test</activatedProperties>
             </properties>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-        </profile>
+       </profile>
         <profile>
             <id>integration</id>
             <properties>

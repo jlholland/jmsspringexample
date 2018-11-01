@@ -148,9 +148,6 @@ I also added notes on how to set the profile if you just want to run the jar fil
             <properties>
                 <activatedProperties>test</activatedProperties>
             </properties>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
         </profile>
         <profile>
             <id>integration</id>
